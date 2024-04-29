@@ -48,6 +48,14 @@
             this.btn_fee = new System.Windows.Forms.Button();
             this.btn_book = new System.Windows.Forms.Button();
             this.btn_dashboard = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.button14 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.button13 = new System.Windows.Forms.Button();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.button12 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -58,6 +66,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel10.SuspendLayout();
+            this.panel9.SuspendLayout();
+            this.panel8.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -322,11 +334,87 @@
             this.btn_dashboard.UseVisualStyleBackColor = false;
             this.btn_dashboard.Click += new System.EventHandler(this.button8_Click);
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(344, 250);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(859, 342);
+            this.dataGridView1.TabIndex = 31;
+            // 
+            // panel10
+            // 
+            this.panel10.Controls.Add(this.button14);
+            this.panel10.Location = new System.Drawing.Point(968, 70);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(261, 161);
+            this.panel10.TabIndex = 34;
+            // 
+            // button14
+            // 
+            this.button14.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button14.Location = new System.Drawing.Point(0, 0);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(261, 161);
+            this.button14.TabIndex = 9;
+            this.button14.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label2.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(272, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(167, 33);
+            this.label2.TabIndex = 35;
+            this.label2.Text = "OVERVIEW";
+            // 
+            // panel9
+            // 
+            this.panel9.Controls.Add(this.button13);
+            this.panel9.Location = new System.Drawing.Point(629, 70);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(261, 161);
+            this.panel9.TabIndex = 33;
+            // 
+            // button13
+            // 
+            this.button13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button13.Location = new System.Drawing.Point(0, 0);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(261, 161);
+            this.button13.TabIndex = 9;
+            this.button13.UseVisualStyleBackColor = true;
+            // 
+            // panel8
+            // 
+            this.panel8.Controls.Add(this.button12);
+            this.panel8.Location = new System.Drawing.Point(269, 70);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(265, 161);
+            this.panel8.TabIndex = 32;
+            // 
+            // button12
+            // 
+            this.button12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button12.Location = new System.Drawing.Point(0, 0);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(265, 161);
+            this.button12.TabIndex = 8;
+            this.button12.UseVisualStyleBackColor = true;
+            // 
             // user_dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1294, 637);
+            this.Controls.Add(this.panel10);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.panel9);
+            this.Controls.Add(this.panel8);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel1);
             this.Name = "user_dashboard";
             this.Text = "user_form";
@@ -342,7 +430,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panel10.ResumeLayout(false);
+            this.panel9.ResumeLayout(false);
+            this.panel8.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -367,5 +460,13 @@
         private System.Windows.Forms.Button btn_profile;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btn_about;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Button button12;
     }
 }
